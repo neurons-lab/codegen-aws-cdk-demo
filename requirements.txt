@@ -1,0 +1,14 @@
+langchain_anthropic
+langgraph
+langchain
+langserve
+langchainhub
+retry
+aws-cdk-lib
+fastapi
+uvicorn
+python-dotenv
+pydantic==1.10.13
+sse_starlette
+streamlit
+boto3
