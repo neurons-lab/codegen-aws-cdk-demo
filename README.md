@@ -1,11 +1,13 @@
 # AI Junior Cloud Engineer - Challenge
 
+![alt text](imgs/intro.png)
+
 ## Overview
 
 This solution represents a significant leap forward in deploying infrastructure and applications to the cloud efficiently. Designed for AWS, it leverages the AWS Cloud Development Kit (CDK) to generate infrastructure as code, enabling both experienced engineers and juniors to deploy complex cloud architectures with ease. Our tool is capable of interpreting tasks from both textual instructions and architectural diagrams, making it a versatile assistant for cloud deployments.
 
 ## Langgraph Architecture
-![alt text](image.png)
+![alt text](imgs/langgraph.png)
 
 
 ## Key Features

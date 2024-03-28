@@ -12,3 +12,7 @@ pydantic==1.10.13
 sse_starlette
 streamlit
 boto3
+google-api-python-client
+fireworks-ai
+arxiv
+numexpr
