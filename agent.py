@@ -26,14 +26,17 @@ COLOR = {
 import sys, os
 from operator import itemgetter
 import subprocess
+import dotenv
 
+# Load environment variables
+dotenv.load_dotenv()
 
 from langchain.output_parsers.openai_tools import PydanticToolsParser
 from langchain_core.pydantic_v1 import BaseModel, Field
 from langchain_anthropic.experimental import ChatAnthropicTools
 from langchain import hub
 
-ANTHROPIC_API_KEY=os.getenv("ANTHROPIC_API_KEY")
+#ANTHROPIC_API_KEY=os.getenv("ANTHROPIC_API_KEY")
 
 class Nodes:
     def __init__(self, context: str, debug: bool = False):
