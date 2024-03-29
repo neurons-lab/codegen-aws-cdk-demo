@@ -175,7 +175,7 @@ Secure the instance with EBS encryption."""
 
     if submitted:
         with st.spinner("Generating AWS CDK Infrastructure as Code..."):
-            resutl=""
+            
             if uploaded_file:
                 image = uploaded_file.read()
                 st.image(
@@ -185,10 +185,11 @@ Secure the instance with EBS encryption."""
                     output_format="auto"
 
                 )
-                result = describe_image(image)
-                # st.text(result)
+                image_description = describe_image(image)
+            else:
+                image_description=""
             result = get_code(
-                f'{input_prompt}\n\n{result}',
+                f'{input_prompt}\n\n{image_description}',
             )
             st.text(result["prefix"])
             st.code(result["code"], language="python")

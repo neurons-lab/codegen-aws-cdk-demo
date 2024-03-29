@@ -1,13 +1,15 @@
 # AI Junior Cloud Engineer - Challenge
 
-## How to develop AI Application with LLMs
 
-![alt text](imgs/intro.png)
 
 
 ## Cognitive architectures for RAG
 
 ![alt text](imgs/state_machine.png)
+
+## State machines let us design more complex RAG "flows"
+
+![Langgraph](imgs/rag_state_machine.png)
 
 ## Overview
 
