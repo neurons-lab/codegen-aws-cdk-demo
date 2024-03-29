@@ -175,6 +175,7 @@ Secure the instance with EBS encryption."""
 
     if submitted:
         with st.spinner("Generating AWS CDK Infrastructure as Code..."):
+            resutl=""
             if uploaded_file:
                 image = uploaded_file.read()
                 st.image(

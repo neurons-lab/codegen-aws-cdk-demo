@@ -1,6 +1,13 @@
 # AI Junior Cloud Engineer - Challenge
 
+## How to develop AI Application with LLMs
+
 ![alt text](imgs/intro.png)
+
+
+## Cognitive architectures for RAG
+
+![alt text](imgs/state_machine.png)
 
 ## Overview
 
